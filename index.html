@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bibliothèque </title>
+</head>
+<body>
+    <form action="javascript:void(0)">
+     <input type="text" name="bibliothèque" placeholder="ente nom de L'ouvrage "><p></p> 
+     <input type="text" name="bibliothèque" placeholder="ente nom de l'auteur"><p></p> <br>
+     <input type="text" name="bibliothèque" placeholder="ente le prix"><p></p>
+     <input type="text" name="bibliothèque" placeholder="email de l'auteur"><p></p><br>
+     <input type="date" name="bibliothèque" placeholder="date de publication"><p></p><br>
+     
+     <select name="language" id="lang">
+         <option disabled selected hidden value>select un language</option>
+         <option value="française">française</option>
+         <option value="espagnole">espagnole</option>
+         <option value="arabe">arabe</option>
+         <option value="anglaise">anglaise</option>
+     </select><br>
+     <span>chiosir une type</span>
+     <label>Roman</label>
+     <input type="radio" name="type">
+     <label>Essai</label>
+     <input type="radio" name="type">
+     <label>Bande-Dessinée  </label>
+     <input type="radio" name="type">
+     <button  onclick="add()">add</button>
+    </form>
+    <table>
+        <thead>
+            <th>nom de L'ouvrage</th>
+            <th>nom de l'auteur</th>
+            <th>prix</th>
+            <th>email de l'auteur</th>
+            <th>date de publication</th>
+            <th>language</th>
+            <th>type de L'ouvrage</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+        
+    </table>
+
+
+<script src="js.js"></script>
+</body>
+</html>
