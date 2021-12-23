@@ -7,8 +7,8 @@
     <title>bibliothèque </title>
 </head>
 <body>
-    <form action="javascript:void(0)">
-     <input type="text"  placeholder="ente nom de L'ouvrage "><p></p> 
+    <form action="javascript:void(0)" id="form">
+     <input type="text"  placeholder="ente nom de L'ouvrage "><p id ="para"></p> 
      <input type="text"  placeholder="ente nom de l'auteur"><p></p> <br>
      <input type="text"  placeholder="ente le prix"><p></p>
      <input type="text"  placeholder="email de l'auteur"><p></p><br>
@@ -28,7 +28,7 @@
      <input type="radio" name="type" value="Essai">
      <label>Bande-Dessinée  </label>
      <input type="radio" name="type" value="Bande-Dessinée">
-     <button  onclick="add()">add</button>
+     <button  onclick="valider()">add</button>
     </form>
     <table>
         <thead>
