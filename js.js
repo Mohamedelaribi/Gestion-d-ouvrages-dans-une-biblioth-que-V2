@@ -6,28 +6,27 @@ var lst = [];
 
 var validation =0;
 function valider(){
-    for(i=0; i<input.length;i++){
+    for(i=0; i<input.length-3;i++){
         if(input[i].value==''){
-          input[i].nextElementSibling.innerHTML = "This fieled required";
+          input[i].nextElementSibling.innerHTML = "entre un formation";
           input[i].nextElementSibling.style.color = "red";
             validation ++;
         }
         else{
-          input[i].nextElementSibling.innerHTML ="well";
+          input[i].nextElementSibling.innerHTML ="valide";
           input[i].nextElementSibling.style.color="green";
-          input[i].style.borderColor="green";
         }
       }
-        //bookname validation
+        //titre validation
         if(input[0].value.length>30){
-          input[0].nextElementSibling.innerHTML="the name should be less than 30 letter"
+          input[0].nextElementSibling.innerHTML="entre un nom moins de 30 letre"
           input[0].nextElementSibling.style.color="red"
         }
   
-        //author validation
+        //auteur validation
   
         if(input[1].value.length>20){
-          input[1].nextElementSibling.innerHTML="the name should be less than 20 letter"
+          input[1].nextElementSibling.innerHTML="entre un nom moins de 20 letre"
           input[1].nextElementSibling.style.color="red"
         }
         //price validation
@@ -38,10 +37,7 @@ function valider(){
           input[2].nextElementSibling.innerHTML="enter the price with number"
           input[2].nextElementSibling.style.color="red"
         }
-        else{
-          input[2].nextElementSibling.innerHTML="WELL"
-          input[2].nextElementSibling.style.color="GREEN"
-        }
+
   
         let ouv = new Ouvrage(input[0].value,input[1].value,input[2].value,input[3].value,input[4].value,document.querySelector("input[type='radio']:checked").value,select.value);
         console.log(lst);
@@ -61,12 +57,15 @@ function valider(){
         if(isNaN(Number(input[2].value))){
   
          input[2].nextElementSibling.innerHTML="enter the price with number"
-        input[2].nextElementSibling.style.color="red"
+         input[2].nextElementSibling.style.color="red"
          }
-        else if (Number(inputs[2].value<0)){
+        else if (Number(input[2].value<0)){
           input[2].nextElementSibling.innerHTML="positive number"
           input[2].nextElementSibling.style.color="red" 
             }
+ 
+
+
          
   
   
