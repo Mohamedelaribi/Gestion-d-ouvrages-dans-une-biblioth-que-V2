@@ -19,7 +19,7 @@ form{
 }
 #lbl{
     color: rgb(235, 213, 173);
-    font-size: 40px;
+    font-size: 30px;
     font-family: "JelleeBold";
 
 }
@@ -37,10 +37,10 @@ form{
     border: none;
     border-radius: 10px;
     height: 20px;
-    width: 70px;
+    width: 150px;
 }
 span{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(235, 213, 173);
     font-family: "JelleeBold";
 }
@@ -57,6 +57,26 @@ span{
     background-color: #9f6f52;
     border-radius: 20px;
     position: relative;
-    left: 45%;
+    left: 15%;
     margin: 20px;
+}
+table{
+    width: auto;
+    border: 1px solid #9f6f52;
+    border-radius: 5px;
+    margin: 30px 70px;
+    border-spacing: 1px ;
+}
+table thead{
+    border: 1px;
+}
+thead th{
+    padding: 10px;
+    width: 20px;
+    border: 1px solid #9f6f52;
+
+}
+tbody td{
+    padding: 15px;
+    border: 1px solid #9f6f52;
 }
