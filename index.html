@@ -8,11 +8,11 @@
 </head>
 <body>
     <form action="javascript:void(0)">
-     <input type="text" name="bibliothèque" placeholder="ente nom de L'ouvrage "><p></p> 
-     <input type="text" name="bibliothèque" placeholder="ente nom de l'auteur"><p></p> <br>
-     <input type="text" name="bibliothèque" placeholder="ente le prix"><p></p>
-     <input type="text" name="bibliothèque" placeholder="email de l'auteur"><p></p><br>
-     <input type="date" name="bibliothèque" placeholder="date de publication"><p></p><br>
+     <input type="text"  placeholder="ente nom de L'ouvrage "><p></p> 
+     <input type="text"  placeholder="ente nom de l'auteur"><p></p> <br>
+     <input type="text"  placeholder="ente le prix"><p></p>
+     <input type="text"  placeholder="email de l'auteur"><p></p><br>
+     <input type="date"  placeholder="date de publication"><p></p><br>
      
      <select name="language" id="lang">
          <option disabled selected hidden value>select un language</option>
@@ -21,13 +21,13 @@
          <option value="arabe">arabe</option>
          <option value="anglaise">anglaise</option>
      </select><br>
-     <span>chiosir une type</span>
+     <span>chiosir une type</span><br>
      <label>Roman</label>
-     <input type="radio" name="type">
+     <input type="radio" name="type" value="roman">
      <label>Essai</label>
-     <input type="radio" name="type">
+     <input type="radio" name="type" value="Essai">
      <label>Bande-Dessinée  </label>
-     <input type="radio" name="type">
+     <input type="radio" name="type" value="Bande-Dessinée">
      <button  onclick="add()">add</button>
     </form>
     <table>
