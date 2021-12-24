@@ -3,8 +3,8 @@
     padding: 0px;
 }
 body{
-    background-image: url(3876089.jpg);
-    height: 150vh;
+    background-image: url(Dark-Academia.jpg);
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ span{
     margin: 20px;
 }
 table{
-    width: auto;
+    width: 100%;
     border: 1px solid #9f6f52;
     border-radius: 5px;
     margin: 30px 70px;
